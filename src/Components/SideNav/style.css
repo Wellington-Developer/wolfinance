@@ -1,0 +1,32 @@
+.sidenav-container {
+  max-width: 322px;
+  width: 100%;
+  background: #1a1a1a;
+  height: calc(100vh - 40px);
+  margin: 20px 0;
+  border-radius: 20px;
+  position: sticky;
+  top: 20px;
+}
+
+.sidenav-container .sidenav-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidenav-container .sidenav-content h1 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.02rem;
+  margin-bottom: 60px;
+  color: white;
+}
+
+.sidenav-container .sidenav-content ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

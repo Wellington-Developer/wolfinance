@@ -1,0 +1,134 @@
+.overview-container {
+  padding: 30px 0;
+  width: 100%;
+}
+
+.top-side_overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-overview p {
+  color: #989ea6;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+}
+
+.about-overview h1 {
+  font-size: 4rem;
+  color: #f5f5f5;
+  line-height: 4rem;
+}
+
+.about-overview h1 span {
+  color: #8d34f9;
+}
+
+.sales-container {
+  width: 100%;
+}
+
+.sales-container ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 60px;
+}
+
+.sales-container ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 24px;
+  background: #1A1A1A;
+  border-radius: 10px;
+}
+
+.sales-container ul li * {
+  font-family: monospace;
+  color: #f3f3f3;
+}
+
+.sales-container ul li a {
+  color: #8d34f9;
+}
+
+.sales-container ul li button {
+  max-width: 200px;
+  padding: 10px;
+}
+
+.sale-container {
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sale-container span {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  line-height: 1rem;
+  color: #989ea6;
+  margin-bottom: 14px;
+}
+
+.sale-container h1 {
+  color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+#payment, #x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background: #1A1A1A;
+  color: white;
+  margin-top: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.09rem;
+}
+
+#pago {
+  background: green;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+#falho {
+  background: red;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+#processando {
+  background: orange;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+#price {
+  font-size: 2rem;
+  color: #989ea6;
+  font-weight: bold;
+  margin-top: 30px;
+}
